@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.18.11:8761/eureka/
+
+server:
+  port: 8190
+spring:
+  application:
+    name: service-credit
+#  date:
+#    mongodb:
+#      host: 192.168.8.17
+#      port: 27017
