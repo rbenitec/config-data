@@ -4,7 +4,7 @@ eureka:
       defaultZone: http://192.168.18.11:8761/eureka/
 
 server:
-  port: 8180
+  port: 8185
 spring:
   application:
     name: service-cuentas
