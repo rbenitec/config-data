@@ -8,7 +8,7 @@ server:
 spring:
   application:
     name: service-client
-  date:
-    mongodb:
-      host: 192.168.8.17
-      port: 27017
+#  date:
+#    mongodb:
+#      host: 192.168.8.17
+#      port: 27017
