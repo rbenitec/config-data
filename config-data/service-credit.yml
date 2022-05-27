@@ -1,10 +1,12 @@
 eureka:
   client:
+    fetch-registry: true
+    register-with-eureka: true
     serviceUrl:
-      defaultZone: http://192.168.18.11:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
 
 server:
-  port: 8190
+  port: 8181
 spring:
   application:
     name: service-credit
