@@ -6,10 +6,10 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 
 server:
-  port: 8182
+  port: 8183
 spring:
   application:
-    name: service-cuentas
+    name: service-currentaccounts
 #  date:
 #    mongodb:
 #      host: 192.168.8.17
