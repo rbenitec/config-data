@@ -21,3 +21,7 @@ spring:
           uri: lb://service-client
           predicates:
             - Path=/client/**
+        - id: service-currentaccounts
+            uri: lb://service-currentaccounts
+            predicates:
+              - Path=/current/**
