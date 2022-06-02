@@ -25,3 +25,4 @@ spring:
           uri: lb://service-currentaccounts
           predicates:
             - Path=/current/**
+            - Path=/operation/**
