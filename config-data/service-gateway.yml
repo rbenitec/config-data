@@ -25,3 +25,7 @@ spring:
           uri: lb://service-currentaccounts
           predicates:
             - Path=/current/**
+        - id: service-activeaccounts
+          uri: lb://service-activeaccounts
+          predicates:
+            - Path=/active/**
