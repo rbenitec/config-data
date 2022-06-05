@@ -29,3 +29,7 @@ spring:
           uri: lb://service-activeaccounts
           predicates:
             - Path=/active/**
+        - id: service-assurance
+          uri: lb://service-assurance
+          predicates:
+            - Path=/assurance/**
