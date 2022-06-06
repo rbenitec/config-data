@@ -3,14 +3,12 @@ server:
 
 eureka:
   client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      default-zone: http://192.168.18.11:8761/eureka/
+    serviceUrl:
+      defaultZone: http://192.168.18.11:8761/eureka/
 
 spring:
   application:
-    name: gateway-service
+    name: service-gateway
   cloud:
     gateway:
       discovery:
